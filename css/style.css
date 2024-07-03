@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Questrial';
+  src: url('../assets/fonts/Questrial-Regular.ttf') format('truetype');
+  /* Añade otros formatos si tienes (.woff, .woff2, etc.) */
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100vh;
+  font-family: 'Questrial', sans-serif;
+  color: #8099A0;
+  font-size: 16px;
+  margin: 0;
+  scrollbar-width: none;
+}
+
+.app {
+  scrollbar-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#markdown {
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  overflow-y: auto;
+  scrollbar-width: none;
+  font-family: 'Questrial', sans-serif;
+  font-size: 16px;
+}
+
+#result {
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid #ccc;
+  background-color: #174b58/0.8;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
