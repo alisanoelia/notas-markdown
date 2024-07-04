@@ -1,5 +1,7 @@
 # Mi primera app de electronJS
 
+![app](./assets/screenshot_20240703_155542.png)
+
 ## Version 0.0.1
 
 Primera version au tiene errores y le faltan funcionalidades.
